@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3ad7f;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+a {
+    padding: 15px 55px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #d3ad7f;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
+a:hover{
+    border-radius: 16px;
+}
